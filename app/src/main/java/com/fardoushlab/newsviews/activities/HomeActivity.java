@@ -1,13 +1,14 @@
-package com.fardoushlab.newsviews;
+package com.fardoushlab.newsviews.activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import com.fardoushlab.newsviews.R;
 
-public class IntroActivity extends AppCompatActivity {
+public class HomeActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_intro);
+        setContentView(R.layout.activity_home);
     }
 }
